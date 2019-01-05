@@ -1,0 +1,19 @@
+{
+  "name": "mock_demo_2",
+  "request": {
+    "method": "GET",
+    "url": "/mock/demo/2",
+    "headers": {
+      "Content-Type": {
+        "matches": "application/json"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"name\": \"John\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
